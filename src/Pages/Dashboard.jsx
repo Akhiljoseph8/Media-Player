@@ -11,14 +11,14 @@ function Dashboard() {
   return (
     <>
     <h2>Dashboard</h2>
-    <Row className='mt-3 p-5'>
-       <Col sm='1' md='2'>
+    <Row className='mt-3 ' style={{justifyContent:"center"}}>
+       <Col sm='4' md='2' lg='2'>
         <AddVideo setRes={setResStatus} />
        </Col>
-       <Col sm='4' md='6'>
+       <Col sm='8' md='4' lg='6'>
         <Videos resStatus={resStatus} />
        </Col>
-       <Col sm='2' md='4'>
+       <Col sm='8' md='3' >
         <Categories />
        </Col>
     </Row>

@@ -66,7 +66,7 @@ function Landing() {
            In addition, they generally have progress bars (or "playback bars"), which are sliders to locate the current position in the duration of the media file. </p>
         </div>
         <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/ycjrMvPZ8Lw?si=JyVh4kOvd4BcHQ0t&autoplay=1" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/ycjrMvPZ8Lw?si=JyVh4kOvd4BcHQ0t" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
       </div>
    </div>

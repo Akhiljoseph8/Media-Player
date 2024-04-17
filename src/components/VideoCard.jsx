@@ -36,7 +36,7 @@ function VideoCard({video,setDel,cat}) {
    
   return (
     <>
-     <Card style={cat?{ width: '13rem', height:"20rem"}:{ width: '18rem',height:"27rem" }} draggable onDragStart={(e)=>{handleDrag(e,video?.id)}}>
+     <Card style={cat?{ width: '11rem', height:"20rem"}:{ width: '18rem',height:"27rem" }} draggable onDragStart={(e)=>{handleDrag(e,video?.id)}}>
       <Card.Img onClick={handleShow} variant="top" src={video.image} />
       <Card.Body>
         <Card.Title className='text-dark'>{video.caption}

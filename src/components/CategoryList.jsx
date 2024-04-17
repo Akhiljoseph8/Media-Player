@@ -47,14 +47,14 @@ function CategoryList({add}) {
      }
   return (
     <>
-   <div className='mt-3 border shadow p-2'>
+   <div className='mt-3 border shadow p-2' >
     {
     cat.length>0?
     cat.map(item=>(
-        <div className='card shadow my-3 p-4' onDragOver={e=>{handleDragOver(e)}} onDrop={e=>{handleDrop(e,item.id)}}>
+        <div className='card shadow my-3 p-4 align-items-center' onDragOver={e=>{handleDragOver(e)}} onDrop={e=>{handleDrop(e,item.id)}}>
           <div>
             <span>{item.name}
-            <i className='fa-solid fa-trash float-end' style={{color:"#000000"}} onClick={()=>{handleDelete(item.id)}}></i>
+            <i className='fa-solid fa-trash p-2' style={{color:"#000000"}} onClick={()=>{handleDelete(item.id)}}></i>
             </span>
           </div>
           <div className='mt-3'>
